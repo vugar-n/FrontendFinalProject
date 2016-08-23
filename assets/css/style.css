@@ -468,7 +468,7 @@ hr.no-margin {
   #home #launchStartup {
     min-height: 375px;
     padding-top: 300px;
-    padding-bottom: 70px; }
+    padding-bottom: 300px; }
   #home h1, #home h5 {
     margin: 20px 0 15px;
     font-weight: 300;
@@ -685,7 +685,8 @@ hr.no-margin {
   #prices .box-detail2 .btn2:hover {
     border-color: #fff;
     background-color: #fff;
-    color: #1ac6ff; }
+    color: #1ac6ff !important;
+    text-decoration: none; }
   #prices .clients-section {
     background-color: none;
     line-height: 1; }
