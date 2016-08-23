@@ -1,0 +1,40 @@
+//Imported Files
+@import "variables";
+@import "commonClasses";
+@import "partials/about";
+@import "partials/contacts";
+@import "partials/feedback";
+@import "partials/home";
+@import "partials/prices";
+@import "partials/team";
+@import "partials/features";
+@import "partials/newsletter";
+
+
+body {
+    
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1d;
+    line-height: 1.5625;
+    background: url(../img/mainbg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    
+    }
+
+
+
+body,div,img,section,li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    }
+
+
+    div,article,section {
+    display: block;
+    }

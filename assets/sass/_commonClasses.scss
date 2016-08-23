@@ -1,0 +1,38 @@
+//Common CLasses
+
+.standart {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.highlight{
+   	color: #1ac6ff;
+   }
+
+   .responsiveImg{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    margin: 20px 0 15px;
+    font-weight: 300;
+    font-family: "Lato",sans-serif;
+    line-height: 1.1;
+    font-size: 34px;
+    display: block;
+  }
+
+
+  .align-left {
+    text-align: left;
+    } 
+
+
+  .align-right {
+  text-align: right;
+  } 

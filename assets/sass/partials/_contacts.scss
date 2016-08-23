@@ -1,0 +1,121 @@
+#contacts{
+  color: #ffffff;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    padding: 0 0 30px;
+.footer {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    
+    font-weight: 300;
+    background-image: url('../img/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    color: #ffffff;
+
+
+  }
+
+.icon,
+.fa {
+	line-height: 1;
+}
+
+.content {
+    padding: 75px 0 65px;
+  }
+
+.logo-wrapper {
+    margin-bottom: 20px;
+  }
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+
+.heading {
+    margin-bottom: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 1px #0000005c;
+    display: block;
+    font-family: "Lato",sans-serif;
+    line-height: 1.1;
+    font-size: 16px;
+  } 
+
+  .list-inline {
+    margin: 0 auto;
+    text-align: center;
+    list-style: none;
+    padding-left: 0;
+
+     li{
+     	padding: 0 15px 15px;
+     	a {color: #1ac6ff;}
+     	.icon{font-size: 50px;}
+
+     }
+   }
+  
+
+  .list-unstyled li {
+  	position: relative;
+  	margin-bottom: 15px;
+  	padding-left:30px;
+     font-size: 15px;
+     line-height: 1.6;
+  }
+.list-unstyled li .icon {
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #1ac6ff;
+}
+
+.copyright {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.5;
+  }
+
+   .list-inline li a:hover {
+    text-decoration: none;
+    opacity: 0.7;
+    }
+}
+
+
+.back-to-top {
+    display:none;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    cursor: pointer;
+    z-index: 9999;
+    opacity: 0.4;
+   
+}
+
+.fa {
+    line-height: 1;
+    color: #1ac6ff;
+}

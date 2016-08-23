@@ -1,0 +1,286 @@
+#prices {
+        position: relative;
+        min-height: 50px;
+        padding: 30px 0;
+  
+ .section{
+     margin: 30px 0px 80px;
+     
+  }	
+	
+  h2{
+  	font-weight: 300;
+    margin: 20px 0px 15px;
+    display: block;
+    font-family: Lato, sans-serif;
+    line-height: 1;
+    font-size: 45px;
+  }
+ .sub-header{
+  margin-bottom: 30px;
+ }
+ .highlight {
+ 	color:#22c8ff;
+ }
+
+  p {
+    line-height: 25px;
+    margin: 0px 0px 10px;font-family: Lato, sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+  
+
+}
+ .box-title{
+ 	font-family: Lato, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #8d8d8d;
+    padding: 20px 0px 18px;
+    
+ }
+
+ .box-title2{
+ 	padding: 20px 0 18px;
+    font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+    color: #474747;
+ }
+
+.box-column{
+    background-color: #f7f7f7;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f0f0f0;
+    
+}
+
+.box-column.disabled{
+    opacity: 0.8 !important;
+    pointer-events: none !important;
+    background-color:none !important;
+
+  }
+
+
+ .box-column:hover {
+ 	background-color:#1ac6ff;
+ }
+
+ .box-price{
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    background-color: rgba(171, 172, 179, 0.1);
+    padding: 15px;
+    color: #aeaeae;
+    position: relative;
+    font-size: 115px;
+    font-weight: 300;
+    line-height: 125px;
+    background-color:#f3f3f3;
+  }
+
+.price{
+	color:#aeaeae;
+	position: relative;
+    font-size: 115px;
+    font-weight: 300;
+    line-height: 125px;
+    background-color:#f3f3f3;
+  }
+
+  .price2{
+	color: #1ac6ff;
+	position: relative;
+    font-size: 115px;
+    font-weight: 300;
+    line-height: 125px;
+    
+  }
+
+  .dollar{
+  	position: relative;
+    top: -40px;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  .period{
+     color: #aeaeae;
+     font-size: 15px;
+     text-transform: uppercase;
+     line-height: 1;
+     font-family: Lato, sans-serif;
+     font-weight: 300;
+     background-color:#f3f3f3;
+  }
+
+  .period2{
+     color: #1ac6ff;
+     font-size: 15px;
+     text-transform: uppercase;
+     line-height: 1;
+     font-family: Lato, sans-serif;
+     font-weight: 300;
+     
+  }
+
+  .box-detail{
+         ul{
+      	 margin-bottom: 30px;
+         li{
+
+        	&:last-child{
+        		border-bottom: none;
+        		color: #8d8d8d;
+        	}
+
+        	
+        	color: #8d8d8d;
+        	height: 56px;
+            padding: 15px 0;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 25px;
+            border-bottom: 1px solid #dadada;
+        } 
+         }
+  	 padding: 30px 15% 50px;
+  	 margin:0;
+  	 border: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+  }
+
+.box-detail2{
+         ul{
+      	 margin-bottom: 30px;
+         li{
+
+        	&:last-child{
+        		border-bottom: none;
+        		color: #474747;
+        	}
+
+        	
+        	color: #474747;
+        	height: 56px;
+            padding: 15px 0;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 25px;
+            border-bottom: 1px solid #dadada;
+        } 
+         }
+  	 padding: 30px 15% 50px;
+  	 margin:0;
+  	 border: 0;
+     font-size: 100%;
+     vertical-align: baseline;
+  }
+
+
+  .btn{
+        color: #a4a4a4;
+        border: 1px solid #a4a4a4;
+        padding: 15px 25px;
+        min-width: 144px;
+        max-width: 100%;
+        font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 1;
+        
+        	    }
+
+   .btn2{
+        color: #1ac6ff;
+        border: 1px solid #1ac6ff;
+        padding: 15px 25px;
+        min-width: 144px;
+        max-width: 100%;
+        font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 1;
+        
+        	    }     	    
+
+  .btn-block{
+  	    display: block;
+        width: auto;
+  } 
+
+
+  .box-column:hover .box-detail2 .btn2 {
+    border-color: #ffffff;
+    
+    color: #fff;
+     }
+
+
+  .box-detail2 .btn2:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #1ac6ff;
+     }
+
+ .clients-section {
+    background-color: none;
+    line-height: 1;}
+      ul.list-inline {
+      margin: 23px -5px;
+      li{
+      	padding: 0 25px;
+      }
+   }
+
+.box-column:hover{
+  background-color: #1ac6ff;
+  
+
+}
+
+.box-column:hover .box-title2 {
+      color: #ffffff;
+   }
+
+
+
+.box-column:hover .box-title2 {
+      color: #ffffff;
+   }
+
+
+.box-column:hover .period2 {
+      
+      color: #ffffff;
+   }
+.box-column:hover .box-price {
+    background-color: rgba(71, 72, 76, 0.2);
+    color: #ffffff;
+
+}
+.box-column:hover .price2 {
+    
+    color: #ffffff;
+}
+
+.box-column:hover .box-detail2 ul li{
+    color: #ffffff;
+}
+
+
+
+}
+
+
+
